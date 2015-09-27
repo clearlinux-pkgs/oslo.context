@@ -4,7 +4,7 @@
 #
 Name     : oslo.context
 Version  : 0.6.0
-Release  : 11
+Release  : 12
 URL      : http://tarballs.openstack.org/oslo.context/oslo.context-0.6.0.tar.gz
 Source0  : http://tarballs.openstack.org/oslo.context/oslo.context-0.6.0.tar.gz
 Summary  : Oslo Context library
@@ -23,6 +23,7 @@ BuildRequires : extras
 BuildRequires : extras-python
 BuildRequires : fixtures-python
 BuildRequires : flake8-python
+BuildRequires : funcsigs-python
 BuildRequires : hacking
 BuildRequires : linecache2-python
 BuildRequires : markupsafe-python
@@ -72,6 +73,7 @@ the WSGI pipeline and used by various modules such as logging.
 %package python
 Summary: python components for the oslo.context package.
 Group: Default
+Requires: Babel-python
 
 %description python
 python components for the oslo.context package.
