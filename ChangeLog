@@ -1,6 +1,16 @@
 CHANGES
 =======
 
+2.0.0
+-----
+
+* Improve Context docs with example syntax
+* Define method for oslo.log context parameters
+* Add additional unit tests
+* Fix request_id type on Python 3: use text (Unicode)
+* Updated from global requirements
+* Provide a helper to load a context from environment
+
 1.0.1
 -----
 
