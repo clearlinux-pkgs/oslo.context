@@ -1,6 +1,19 @@
 CHANGES
 =======
 
+2.2.0
+-----
+
+* Standardize an oslo.policy credentials dictionary
+* Revert "Add common oslo.log format parameters"
+* Add roles to context
+
+2.1.0
+-----
+
+* Agnostic approach to construct context from_dict
+* Add common oslo.log format parameters
+
 2.0.0
 -----
 
