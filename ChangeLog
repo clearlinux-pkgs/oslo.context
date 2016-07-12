@@ -1,6 +1,25 @@
 CHANGES
 =======
 
+2.5.0
+-----
+
+* Add reno for releasenotes management
+
+2.4.0
+-----
+
+* Trivial: ignore openstack/common in flake8 exclude list
+* Strip roles in from_environ
+* Allow deprecated headers in from_environ
+
+2.3.0
+-----
+
+* Drop babel as requirement since its not used
+* Updated from global requirements
+* Ensure to_dict() supports unicode
+
 2.2.0
 -----
 
