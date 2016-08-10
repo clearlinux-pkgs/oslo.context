@@ -1,9 +1,15 @@
 CHANGES
 =======
 
+2.7.0
+-----
+
+* Add Python 3.5 classifier and venv
+
 2.6.0
 -----
 
+* Allow deprecated X-Tenant-Name in from_environ
 * Handle openstack.request_id in from_environ
 * Add is_admin_project to context
 * Updated from global requirements
