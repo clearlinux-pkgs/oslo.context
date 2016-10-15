@@ -1,10 +1,23 @@
 CHANGES
 =======
 
+2.9.0
+-----
+
+* Updated from global requirements
+
+2.8.0
+-----
+
+* Delete H803 in flake8 ignore list
+* Fix parameters of assertEqual are misplaced
+* Manually specify from_dict parameters
+
 2.7.0
 -----
 
 * Add Python 3.5 classifier and venv
+* Emit deprecation warnings when positional args passed
 
 2.6.0
 -----
