@@ -1,6 +1,14 @@
 CHANGES
 =======
 
+2.10.0
+------
+
+* Enable release notes translation
+* Updated from global requirements
+* Update reno for stable/newton
+* Fix typos
+
 2.9.0
 -----
 
