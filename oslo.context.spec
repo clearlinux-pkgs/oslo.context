@@ -4,7 +4,7 @@
 #
 Name     : oslo.context
 Version  : 2.10.0
-Release  : 31
+Release  : 32
 URL      : http://tarballs.openstack.org/oslo.context/oslo.context-2.10.0.tar.gz
 Source0  : http://tarballs.openstack.org/oslo.context/oslo.context-2.10.0.tar.gz
 Summary  : Oslo Context library
