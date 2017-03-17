@@ -1,13 +1,45 @@
 CHANGES
 =======
 
+2.13.0
+------
+
+* Updated from global requirements
+* [Fix gate]Update test requirement
+* Updated from global requirements
+* pbr.version.VersionInfo needs package name (oslo.xyz and not oslo_xyz)
+* Postpone deprecation warnings to Pike
+* Update reno for stable/ocata
+
+2.12.0
+------
+
+* Updated from global requirements
+* Remove references to Python 3.4
+* Add Constraints support
+* Show team and repo badges on README
+* Add the service token details to context
+* Reformat the Context.__init__ arguments
+* Move existing attributes to _id suffixed attributes
+
+2.11.0
+------
+
+* Updated from global requirements
+* Revert "Fix X-User and X-Tenant deprecated headers in from_environ"
+* Updated from global requirements
+* Updated from global requirements
+* Changed the home-page link
+
 2.10.0
 ------
 
 * Enable release notes translation
 * Updated from global requirements
+* Provide a way to deprecate policy values
 * Update reno for stable/newton
 * Fix typos
+* Fix X-User and X-Tenant deprecated headers in from_environ
 
 2.9.0
 -----
