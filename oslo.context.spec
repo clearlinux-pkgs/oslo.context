@@ -6,26 +6,24 @@
 #
 Name     : oslo.context
 Version  : 2.21.0
-Release  : 41
+Release  : 42
 URL      : http://tarballs.openstack.org/oslo.context/oslo.context-2.21.0.tar.gz
 Source0  : http://tarballs.openstack.org/oslo.context/oslo.context-2.21.0.tar.gz
 Source99 : http://tarballs.openstack.org/oslo.context/oslo.context-2.21.0.tar.gz.asc
 Summary  : Oslo Context library
 Group    : Development/Tools
 License  : Apache-2.0
-Requires: oslo.context-python3
-Requires: oslo.context-license
-Requires: oslo.context-python
+Requires: oslo.context-license = %{version}-%{release}
+Requires: oslo.context-python = %{version}-%{release}
+Requires: oslo.context-python3 = %{version}-%{release}
 Requires: Sphinx
 Requires: debtcollector
 Requires: fixtures
+Requires: openstackdocstheme
 Requires: pbr
 Requires: reno
 BuildRequires : buildreq-distutils3
 BuildRequires : pbr
-BuildRequires : pip
-BuildRequires : python3-dev
-BuildRequires : setuptools
 
 %description
 Oslo Context Library
@@ -46,7 +44,7 @@ license components for the oslo.context package.
 %package python
 Summary: python components for the oslo.context package.
 Group: Default
-Requires: oslo.context-python3
+Requires: oslo.context-python3 = %{version}-%{release}
 
 %description python
 python components for the oslo.context package.
@@ -69,14 +67,14 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1532269040
-python3 setup.py build -b py3
+export SOURCE_DATE_EPOCH=1541270418
+python3 setup.py build
 
 %install
 rm -rf %{buildroot}
-mkdir -p %{buildroot}/usr/share/doc/oslo.context
-cp LICENSE %{buildroot}/usr/share/doc/oslo.context/LICENSE
-python3 -tt setup.py build -b py3 install --root=%{buildroot}
+mkdir -p %{buildroot}/usr/share/package-licenses/oslo.context
+cp LICENSE %{buildroot}/usr/share/package-licenses/oslo.context/LICENSE
+python3 -tt setup.py build  install --root=%{buildroot}
 echo ----[ mark ]----
 cat %{buildroot}/usr/lib/python3*/site-packages/*/requires.txt || :
 echo ----[ mark ]----
@@ -85,8 +83,8 @@ echo ----[ mark ]----
 %defattr(-,root,root,-)
 
 %files license
-%defattr(-,root,root,-)
-/usr/share/doc/oslo.context/LICENSE
+%defattr(0644,root,root,0755)
+/usr/share/package-licenses/oslo.context/LICENSE
 
 %files python
 %defattr(-,root,root,-)
