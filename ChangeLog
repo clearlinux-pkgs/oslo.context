@@ -1,6 +1,21 @@
 CHANGES
 =======
 
+2.22.0
+------
+
+* Implement domain-scope for context objects
+* Clean up .gitignore references to personal tools
+* Always build universal wheels
+* add lib-forward-testing-python3 test job
+* add python 3.6 unit test job
+* import zuul job settings from project-config
+* import zuul job settings from project-config
+* Update reno for stable/rocky
+* Switch to stestr
+* Add release notes link to README
+* fix tox python3 overrides
+
 2.21.0
 ------
 
