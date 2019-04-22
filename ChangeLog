@@ -1,6 +1,14 @@
 CHANGES
 =======
 
+2.22.1
+------
+
+* add python 3.7 unit test job
+* Update hacking version
+* Use template for lower-constraints
+* Update mailinglist from dev to discuss
+
 2.22.0
 ------
 
