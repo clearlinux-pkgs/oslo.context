@@ -1,1 +1,17 @@
 # This file contains recursive sources that require this package
+barbican
+castellan
+cinder
+glance
+ironic
+keystone
+keystonemiddleware
+neutron
+neutron-lib
+nova
+oslo.log
+oslo.middleware
+oslo.policy
+oslo.vmware
+pypowervm
+sahara

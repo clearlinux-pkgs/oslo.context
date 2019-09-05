@@ -1,6 +1,16 @@
 CHANGES
 =======
 
+2.23.0
+------
+
+* Add Python 3 Train unit tests
+* Cap Bandit below 1.6.0 and update Sphinx requirement
+* Replace git.openstack.org URLs with opendev.org URLs
+* OpenDev Migration Patch
+* Dropping the py35 testing
+* Update master for stable/stein
+
 2.22.1
 ------
 
