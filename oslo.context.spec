@@ -6,7 +6,7 @@
 #
 Name     : oslo.context
 Version  : 2.23.0
-Release  : 49
+Release  : 50
 URL      : http://tarballs.openstack.org/oslo.context/oslo.context-2.23.0.tar.gz
 Source0  : http://tarballs.openstack.org/oslo.context/oslo.context-2.23.0.tar.gz
 Source1 : http://tarballs.openstack.org/oslo.context/oslo.context-2.23.0.tar.gz.asc
