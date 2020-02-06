@@ -1,6 +1,20 @@
 CHANGES
 =======
 
+3.0.0
+-----
+
+* Drop python 2.7 support and testing
+* tox: Trivial cleanup
+* Bump the openstackdocstheme extension to 1.20
+* gitignore: Hide reno cache files
+* tox: Stop using 'python setup.py test'
+* Switch to Ussuri jobs
+* tox: Keeping going with docs
+* Switch to Ussuri jobs
+* Update the constraints url
+* Update master for stable/train
+
 2.23.0
 ------
 

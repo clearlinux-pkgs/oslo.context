@@ -12,6 +12,7 @@ nova
 oslo.log
 oslo.middleware
 oslo.policy
+oslo.versionedobjects
 oslo.vmware
 pypowervm
 sahara
