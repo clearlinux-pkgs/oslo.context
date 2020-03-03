@@ -3,6 +3,7 @@ barbican
 castellan
 cinder
 glance
+heat
 ironic
 keystone
 keystonemiddleware
