@@ -1,10 +1,20 @@
 CHANGES
 =======
 
+3.0.1
+-----
+
+* Update hacking for Python3
+* Filter out auth\_token\_info from logging values
+* trivial: Cleanup tox.ini
+* remove outdated header
+* reword releasenote for py27 support dropping
+
 3.0.0
 -----
 
 * Drop python 2.7 support and testing
+* tox: Trivial cleanup
 * tox: Trivial cleanup
 * Bump the openstackdocstheme extension to 1.20
 * gitignore: Hide reno cache files

@@ -1,19 +1,15 @@
 # This file contains recursive sources that require this package
-barbican
 castellan
 cinder
-glance
 heat
 ironic
 keystone
 keystonemiddleware
 neutron
 neutron-lib
-nova
 oslo.log
 oslo.middleware
 oslo.policy
 oslo.versionedobjects
 oslo.vmware
 pypowervm
-sahara
