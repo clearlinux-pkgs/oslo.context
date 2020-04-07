@@ -1,6 +1,11 @@
 CHANGES
 =======
 
+3.0.2
+-----
+
+* Don't build universal wheel
+
 3.0.1
 -----
 
