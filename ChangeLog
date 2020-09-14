@@ -1,6 +1,13 @@
 CHANGES
 =======
 
+3.1.1
+-----
+
+* Bump bandit version
+* drop mock from lower-constraints
+* Fix pygments style
+
 3.1.0
 -----
 
@@ -8,6 +15,7 @@ CHANGES
 * Fix hacking min version to 3.0.1
 * Switch to newer openstackdocstheme and reno versions
 * Remove the unused coding style modules
+* Align contributing doc with oslo's policy
 * Bump default tox env from py37 to py38
 * Add py38 package metadata
 * Add release notes links to doc index

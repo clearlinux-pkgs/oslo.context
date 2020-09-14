@@ -5,11 +5,11 @@
 # Source0 file verified with key 0xC12B8E73B30F2FC8 (infra-root@openstack.org)
 #
 Name     : oslo.context
-Version  : 3.1.0
-Release  : 56
-URL      : http://tarballs.openstack.org/oslo.context/oslo.context-3.1.0.tar.gz
-Source0  : http://tarballs.openstack.org/oslo.context/oslo.context-3.1.0.tar.gz
-Source1  : http://tarballs.openstack.org/oslo.context/oslo.context-3.1.0.tar.gz.asc
+Version  : 3.1.1
+Release  : 57
+URL      : http://tarballs.openstack.org/oslo.context/oslo.context-3.1.1.tar.gz
+Source0  : http://tarballs.openstack.org/oslo.context/oslo.context-3.1.1.tar.gz
+Source1  : http://tarballs.openstack.org/oslo.context/oslo.context-3.1.1.tar.gz.asc
 Summary  : Oslo Context library
 Group    : Development/Tools
 License  : Apache-2.0
@@ -60,15 +60,15 @@ python3 components for the oslo.context package.
 
 
 %prep
-%setup -q -n oslo.context-3.1.0
-cd %{_builddir}/oslo.context-3.1.0
+%setup -q -n oslo.context-3.1.1
+cd %{_builddir}/oslo.context-3.1.1
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1591379015
+export SOURCE_DATE_EPOCH=1600109193
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
@@ -81,7 +81,7 @@ python3 setup.py build
 export MAKEFLAGS=%{?_smp_mflags}
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/oslo.context
-cp %{_builddir}/oslo.context-3.1.0/LICENSE %{buildroot}/usr/share/package-licenses/oslo.context/294b43b2cec9919063be1a3b49e8722648424779
+cp %{_builddir}/oslo.context-3.1.1/LICENSE %{buildroot}/usr/share/package-licenses/oslo.context/294b43b2cec9919063be1a3b49e8722648424779
 python3 -tt setup.py build  install --root=%{buildroot}
 echo ----[ mark ]----
 cat %{buildroot}/usr/lib/python3*/site-packages/*/requires.txt || :

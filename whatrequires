@@ -6,6 +6,7 @@ keystone
 keystonemiddleware
 neutron
 neutron-lib
+os-brick
 oslo.log
 oslo.middleware
 oslo.policy
