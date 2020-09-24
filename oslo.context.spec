@@ -6,7 +6,7 @@
 #
 Name     : oslo.context
 Version  : 3.1.1
-Release  : 57
+Release  : 58
 URL      : http://tarballs.openstack.org/oslo.context/oslo.context-3.1.1.tar.gz
 Source0  : http://tarballs.openstack.org/oslo.context/oslo.context-3.1.1.tar.gz
 Source1  : http://tarballs.openstack.org/oslo.context/oslo.context-3.1.1.tar.gz.asc
